@@ -60,7 +60,37 @@
 //       two.style.backgroundColor = "#ff6666"
 //     });
 
+  let container = document.getElementById("container");
+  console.log(container);
+  console.dir(container);
 
+  container.style.width = "100vw";
+  container.style.height = "100vh";
+  container.style.display = "grid";
+  container.style.gridTemplateColumns = "250px 500px ";
+  container.style.gridTemplateRows = "250px 500px ";
+  container.style.gridGap = "20px";
+
+  // let value = 250;
+
+
+  let one = container.children[0];
+  // one.style.width = (value + "px");
+  // one.style.height = (value + "px");
+  one.style.backgroundColor = "gray";
+
+  let two = container.children[1];
+  // two.style.width = (value *2 + "px");
+  // two.style.height = (value + "px");
+  two.style.backgroundColor = "gray";
+
+  // display : grid를 잘 안써봐서 잘 모름
+  // 찾아봐서 익힐 것 
+
+  let three = container.children[2];
+  // three.style.width = (value + "px");
+  // three.style.height = (value *2+ "px");
+  three.style.backgroundColor = "gray";
 
     </script>
       
