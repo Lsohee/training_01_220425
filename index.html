@@ -70,9 +70,12 @@
   container.style.gridTemplateColumns = "250px 500px ";
   container.style.gridTemplateRows = "250px 500px ";
   container.style.gridGap = "20px";
+  // container.style.children.backgroundColor = "gray";
 
   // let value = 250;
 
+  // container의 자식 div을 전부 묶어서 부를수는 없을까?
+  
 
   let one = container.children[0];
   // one.style.width = (value + "px");
@@ -91,6 +94,11 @@
   // three.style.width = (value + "px");
   // three.style.height = (value *2+ "px");
   three.style.backgroundColor = "gray";
+
+
+    one.addEventListener ( "click", function(){
+      two.style.backgroundColor = "#ff6666"
+    });
 
     </script>
       
