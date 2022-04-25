@@ -11,53 +11,54 @@
     <div ></div>
     <div ></div>
     <div ></div>
+    <div></div>
   </div>
   <script>
-    let container = document.getElementById("container");
-    console.log(container);
-    console.dir(container);
+//     let container = document.getElementById("container");
+//     console.log(container);
+//     console.dir(container);
     
     
     
-    container.style.width = ("100vw");
-    container.style.height = ("100vh");
-    // container.style.backgroundColor = ("salmon");
-    // nth-child처럼 지정하는 방법 (일일히 아이디로 지정할 수는 없으니까)찾기
-    // container의 요소에서 children을 찾아서 그 안에 있는 div을 배열로 표현
+//     container.style.width = ("100vw");
+//     container.style.height = ("100vh");
+//     // container.style.backgroundColor = ("salmon");
+//     // nth-child처럼 지정하는 방법 (일일히 아이디로 지정할 수는 없으니까)찾기
+//     // container의 요소에서 children을 찾아서 그 안에 있는 div을 배열로 표현
     
     
-    let one = container.children[0];
-    one.style.backgroundColor = ("gray");
-    let value = 250;
-    one.style.width = (value + "px");
-    one.style.height = (value + "px");
-    one.style.margin = (10 + "px");
+//     let one = container.children[0];
+//     one.style.backgroundColor = ("gray");
+//     let value = 250;
+//     one.style.width = (value + "px");
+//     one.style.height = (value + "px");
+//     one.style.margin = (30 + "px");
     
     
-    let two = container.children[1];
-    two.style.width = (value *2 + "px");
-    two.style.height = (value + "px");
-    two.style.backgroundColor = ("gray");
-    two.style.margin = (10 + "px");
-    two.style.position = "absolute"
-    two.style.left = "265px";
-    two.style.top = "0px";
+//     let two = container.children[1];
+//     two.style.width = (value *2 + "px");
+//     two.style.height = (value + "px");
+//     two.style.backgroundColor = ("gray");
+//     two.style.margin = (30 + "px");
+//     two.style.position = "absolute"
+//     two.style.left = "270px";
+//     two.style.top = "0px";
 
     
     
-    let three = container.children[2];
-    three.style.width = (value  + "px");
-    three.style.height = (value*2 + "px");
-    three.style.backgroundColor = ("gray");
-    three.style.margin = (10 + "px");
+//     let three = container.children[2];
+//     three.style.width = (value  + "px");
+//     three.style.height = (value*2 + "px");
+//     three.style.backgroundColor = ("gray");
+//     three.style.margin = (30 + "px");
     
-    console.dir(two);
+//     console.dir(two);
     
-// event적용시키는 방법에 익숙하지 않아서 찾아봄 
-// 더 많이써봐서 손에 익혀 술술 나오게 할 것
-    one.addEventListener ( "click", function(){
-      two.style.backgroundColor = "#ff6666"
-    });
+// // event적용시키는 방법에 익숙하지 않아서 찾아봄 
+// // 더 많이써봐서 손에 익혀 술술 나오게 할 것
+//     one.addEventListener ( "click", function(){
+//       two.style.backgroundColor = "#ff6666"
+//     });
 
 
 
